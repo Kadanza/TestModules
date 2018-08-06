@@ -8,12 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/base" />
-            <option value="$PROJECT_DIR$/ftbase" />
             <option value="$PROJECT_DIR$/ftmap" />
             <option value="$PROJECT_DIR$/ftreg" />
-            <option value="$PROJECT_DIR$/mvmap" />
-            <option value="$PROJECT_DIR$/nav" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
