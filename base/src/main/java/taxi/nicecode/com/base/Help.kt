@@ -3,7 +3,7 @@ package taxi.nicecode.com.base
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context
-import android.support.v4.content.ContextCompat
+import androidx.core.content.ContextCompat
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import taxi.nicecode.com.base.kit.core.HideSoftKeyboard

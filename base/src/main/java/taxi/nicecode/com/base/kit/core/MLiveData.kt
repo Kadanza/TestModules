@@ -1,19 +1,14 @@
 package taxi.nicecode.com.base.kit.core
 
-import android.arch.lifecycle.*
-import android.content.Context
 import android.view.View
-import taxi.nicecode.com.base.showToast
+import androidx.lifecycle.*
+import com.shopify.livedataktx.SingleLiveData
 import taxi.nicecode.com.base.w
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import io.reactivex.subjects.PublishSubject
 import kotlinx.coroutines.experimental.android.UI
 import kotlinx.coroutines.experimental.async
-import me.henrytao.livedataktx.SingleLiveData
-import me.henrytao.livedataktx.debounce
-import me.henrytao.livedataktx.observe
-import javax.inject.Inject
 
 
 /**
@@ -80,19 +75,19 @@ abstract class MLiveData : MutableLiveData<Any>(), LifecycleObserver {
 
 
         //  }
-        this.debounce(10).observe(owner) {
-            val  updater = map.get(key)
-            updater?.updateUi()
-            updateUi?.invoke(this)
-        }
-
-
-        single.debounce(10).observe(owner) {
-            async (UI) {
-                singleUpdateUi?.invoke(it)
-            }
-
-        }
+//        this.debounce(10).observe(owner) {
+//            val  updater = map.get(key)
+//            updater?.updateUi()
+//            updateUi?.invoke(this)
+//        }
+//
+//
+//        single.debounce(10).observe(owner) {
+//
+//            async (UI) {
+//                singleUpdateUi?.invoke(it)
+//            }
+//        }
 
         updater.updateUi()
         updateUi()

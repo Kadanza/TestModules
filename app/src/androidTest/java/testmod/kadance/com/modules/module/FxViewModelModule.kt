@@ -1,13 +1,9 @@
 package testmod.kadance.com.modules.module
 
-import android.arch.lifecycle.ViewModel
-import android.arch.lifecycle.ViewModelProvider
-import android.content.Context
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import dagger.Binds
-import dagger.Component
 import dagger.Module
-import dagger.Subcomponent
-import dagger.android.support.AndroidSupportInjectionModule
 import dagger.multibindings.IntoMap
 import taxi.nicecode.com.base.d
 import taxi.nicecode.com.ftmap.MapVm
@@ -15,7 +11,6 @@ import taxi.nicecode.com.ftreg.RegVm
 import testmod.kadance.com.modules.di.extra.AScope
 import testmod.kadance.com.modules.di.extra.ViewModelFactory
 import testmod.kadance.com.modules.di.extra.ViewModelKey
-import testmod.kadance.com.modules.di.module.ViewModelModule
 import javax.inject.Inject
 
 

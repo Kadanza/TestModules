@@ -1,8 +1,8 @@
 package taxi.nicecode.com.base
 
 import android.annotation.SuppressLint
-import android.arch.lifecycle.ViewModelProvider
-import android.support.v7.app.AppCompatActivity
+import androidx.lifecycle.ViewModelProvider
+import androidx.appcompat.app.AppCompatActivity
 import android.util.Log
 import android.view.MotionEvent
 import android.widget.Toast

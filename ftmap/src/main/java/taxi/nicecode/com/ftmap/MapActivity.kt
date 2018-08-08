@@ -1,13 +1,11 @@
 package taxi.nicecode.com.ftmap
 
 import android.annotation.SuppressLint
-import android.arch.lifecycle.ViewModelProviders
+import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
-import android.support.constraint.ConstraintLayout
-import kotlinx.android.synthetic.main.act_map.*
 import taxi.nicecode.com.base.BaseActivity
 import taxi.nicecode.com.base.IAppNavigator
-import taxi.nicecode.com.base.kit.core.HideSoftKeyboard
+import taxi.nicecode.com.base.d
 import taxi.nicecode.com.ftmap.generated.package_0.Foo149
 
 class MapActivity : BaseActivity() {
@@ -32,6 +30,7 @@ class MapActivity : BaseActivity() {
             if(x != null){
                 Foo149().foo3()
             }
+            d("")
 
         }
 

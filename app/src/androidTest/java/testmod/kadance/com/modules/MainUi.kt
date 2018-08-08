@@ -1,19 +1,16 @@
 package testmod.kadance.com.modules
 
-import android.arch.core.executor.testing.InstantTaskExecutorRule
-import android.support.test.InstrumentationRegistry
-import android.support.test.filters.LargeTest
-import android.support.test.runner.AndroidJUnit4
+import androidx.arch.core.executor.testing.InstantTaskExecutorRule
+import androidx.test.InstrumentationRegistry
+import androidx.test.filters.LargeTest
+import androidx.test.runner.AndroidJUnit4
 import org.junit.After
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.TestRule
 import org.junit.runner.RunWith
-import testmod.kadance.com.modules.di.DaggerAppComponent
-import android.support.test.rule.ActivityTestRule;
-import taxi.nicecode.com.base.showActivity
-import taxi.nicecode.com.ftmap.MapActivity
+import androidx.test.rule.ActivityTestRule;
 import testmod.kadance.com.modules.module.DaggerFAppComponent
 import testmod.kadance.com.modules.module.FAppModule
 

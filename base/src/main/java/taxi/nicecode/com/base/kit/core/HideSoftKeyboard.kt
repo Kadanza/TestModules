@@ -2,8 +2,8 @@ package taxi.nicecode.com.base.kit.core
 
 import android.app.Activity
 import android.app.Dialog
-import android.support.v4.app.Fragment
-import android.support.v7.app.AppCompatDialog
+import androidx.fragment.app.Fragment
+import androidx.appcompat.app.AppCompatDialog
 import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.InputMethodManager

@@ -1,7 +1,7 @@
 package taxi.nicecode.com.ftreg
 
 import android.annotation.SuppressLint
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.ViewModel
 import android.content.Context
 import taxi.nicecode.com.base.d
 import taxi.nicecode.com.base.kit.core.MLiveData

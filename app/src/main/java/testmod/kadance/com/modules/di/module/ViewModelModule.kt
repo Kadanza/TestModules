@@ -1,10 +1,10 @@
 package testmod.kadance.com.modules.di.module
 
 import dagger.Module
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.ViewModel
 import dagger.multibindings.IntoMap
 import dagger.Binds
-import android.arch.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProvider
 import taxi.nicecode.com.ftmap.MapVm
 import taxi.nicecode.com.ftreg.RegVm
 import testmod.kadance.com.modules.di.extra.AScope

@@ -1,8 +1,7 @@
 package taxi.nicecode.com.ftreg
 
-import android.arch.lifecycle.ViewModelProviders
+import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
-import kotlinx.android.synthetic.main.act_reg.*
 import taxi.nicecode.com.base.BaseActivity
 import taxi.nicecode.com.base.IAppNavigator
 import taxi.nicecode.com.base.d

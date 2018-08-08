@@ -1,9 +1,8 @@
 package testmod.kadance.com.modules
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import taxi.nicecode.com.base.d
-import taxi.nicecode.com.base.showActivity
 import taxi.nicecode.com.ftmap.MapActivity
 import taxi.nicecode.com.ftmap.generated.package_0.Foo0
 
